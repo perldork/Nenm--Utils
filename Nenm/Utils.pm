@@ -647,4 +647,22 @@ sub debug {
     warn scalar( localtime() ) . ": $msg\n";
 }
 
+=pod
+
+=head1 AUTHORS
+
+ * Max Schubert  (maxschube@cpan.org)
+ * Ryan Richins 
+ * Shaofeng Yang
+
+=head1 Special Thanks
+
+Special thanks to my teammates Ryan Richins and Shaofeng Yang at Comcast
+for their significant contributions to this module and to my managers 
+Jason Livingood and Mike Fischer at Comcast for allowing our team to 
+contribute code we have created or modified at work back to the open 
+source community.  If you live in the northern Virginia area and are 
+a talented developer / systems administrator, Comcast is hiring :).
+
+=cut
 1;
